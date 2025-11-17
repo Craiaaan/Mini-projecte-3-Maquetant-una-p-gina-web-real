@@ -1,0 +1,98 @@
+body {
+  background-color: #050c4d;
+  font-family: "Montserrat", sans-serif;
+}
+.superior {
+  display: flex;
+  background-color: #050c4d;
+  color: white;
+}
+
+.margin-left {
+  margin-left: 20%;
+}
+
+header {
+  display: flex;
+  padding: 30px;
+  background-color: white;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+header img {
+  margin-left: 20%;
+}
+
+nav {
+  width: 100%;
+  margin-right: 25%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style-type: none;
+}
+
+main {
+  background-image: url(img/main\ fondo.jpg);
+  height: 760px;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+main div {
+  justify-content: center;
+  margin-top: 260px;
+  margin-left: 20%;
+}
+
+main p {
+  color: #050c4d;
+  margin-bottom: 40px;
+}
+
+main h1 {
+  color: #050c4d;
+  padding-right: 500px;
+  font-size: 50px;
+}
+
+main button {
+  margin-top: 10px;
+  padding: 15px 30px 15px 30px;
+  background-color: white;
+  border-radius: 3px;
+  border-style: none;
+  color: #050c4d;
+  font-weight: 700;
+}
+
+footer {
+  padding: 20px;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+footer h1 {
+  width: 120%;
+  border-right: 2px solid;
+}
+
+footer button {
+  margin-top: 10px;
+  padding: 15px 30px 15px 30px;
+  background-color: white;
+  border-radius: 3px;
+  border-style: none;
+  color: #050c4d;
+  font-weight: 700;
+  width: 40%;
+  margin-bottom: 15px;
+}
