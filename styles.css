@@ -40,6 +40,9 @@ main {
   background-image: url(img/main\ fondo.jpg);
   height: 760px;
   padding: 10px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -47,6 +50,7 @@ main div {
   justify-content: center;
   margin-top: 260px;
   margin-left: 20%;
+  width: 40%;
 }
 
 main p {
@@ -56,7 +60,7 @@ main p {
 
 main h1 {
   color: #050c4d;
-  padding-right: 500px;
+  padding-right: 5px;
   font-size: 50px;
 }
 
@@ -78,6 +82,10 @@ footer {
   display: flex;
   align-items: center;
   gap: 50px;
+}
+
+footer p {
+  color: gray;
 }
 
 footer h1 {
